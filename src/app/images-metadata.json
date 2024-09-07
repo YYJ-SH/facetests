@@ -1,0 +1,60 @@
+{
+    "images": [
+      {"file": "P1_original.png", "person": "P1", "method": "original", "intensity": null},
+      {"file": "P2_original.png", "person": "P2", "method": "original", "intensity": null},
+      {"file": "P3_original.png", "person": "P3", "method": "original", "intensity": null},
+      {"file": "P4_original.png", "person": "P4", "method": "original", "intensity": null},
+      {"file": "P5_original.png", "person": "P5", "method": "original", "intensity": null},
+      {"file": "P6_original.png", "person": "P6", "method": "original", "intensity": null},
+      {"file": "P7_original.png", "person": "P7", "method": "original", "intensity": null},
+      {"file": "P8_original.png", "person": "P8", "method": "original", "intensity": null},
+      
+      {"file": "P1_blur_50.png", "person": "P1", "method": "blur", "intensity": 50},
+      {"file": "P1_blur_75.png", "person": "P1", "method": "blur", "intensity": 75},
+      {"file": "P1_mask.png", "person": "P1", "method": "mask", "intensity": null},
+      {"file": "P1_pixel_50.png", "person": "P1", "method": "pixel", "intensity": 50},
+      {"file": "P1_pixel_75.png", "person": "P1", "method": "pixel", "intensity": 75},
+      
+      {"file": "P2_blur_50.png", "person": "P2", "method": "blur", "intensity": 50},
+      {"file": "P2_blur_75.png", "person": "P2", "method": "blur", "intensity": 75},
+      {"file": "P2_mask.png", "person": "P2", "method": "mask", "intensity": null},
+      {"file": "P2_pixel_50.png", "person": "P2", "method": "pixel", "intensity": 50},
+      {"file": "P2_pixel_75.png", "person": "P2", "method": "pixel", "intensity": 75},
+      
+      {"file": "P3_blur_50.png", "person": "P3", "method": "blur", "intensity": 50},
+      {"file": "P3_blur_75.png", "person": "P3", "method": "blur", "intensity": 75},
+      {"file": "P3_mask.png", "person": "P3", "method": "mask", "intensity": null},
+      {"file": "P3_pixel_50.png", "person": "P3", "method": "pixel", "intensity": 50},
+      {"file": "P3_pixel_75.png", "person": "P3", "method": "pixel", "intensity": 75},
+      
+      {"file": "P4_blur_50.png", "person": "P4", "method": "blur", "intensity": 50},
+      {"file": "P4_blur_75.png", "person": "P4", "method": "blur", "intensity": 75},
+      {"file": "P4_mask.png", "person": "P4", "method": "mask", "intensity": null},
+      {"file": "P4_pixel_50.png", "person": "P4", "method": "pixel", "intensity": 50},
+      {"file": "P4_pixel_75.png", "person": "P4", "method": "pixel", "intensity": 75},
+      
+      {"file": "P5_blur_50.png", "person": "P5", "method": "blur", "intensity": 50},
+      {"file": "P5_blur_75.png", "person": "P5", "method": "blur", "intensity": 75},
+      {"file": "P5_mask.png", "person": "P5", "method": "mask", "intensity": null},
+      {"file": "P5_pixel_50.png", "person": "P5", "method": "pixel", "intensity": 50},
+      {"file": "P5_pixel_75.png", "person": "P5", "method": "pixel", "intensity": 75},
+      
+      {"file": "P6_blur_50.png", "person": "P6", "method": "blur", "intensity": 50},
+      {"file": "P6_blur_75.png", "person": "P6", "method": "blur", "intensity": 75},
+      {"file": "P6_mask.png", "person": "P6", "method": "mask", "intensity": null},
+      {"file": "P6_pixel_50.png", "person": "P6", "method": "pixel", "intensity": 50},
+      {"file": "P6_pixel_75.png", "person": "P6", "method": "pixel", "intensity": 75},
+      
+      {"file": "P7_blur_50.png", "person": "P7", "method": "blur", "intensity": 50},
+      {"file": "P7_blur_75.png", "person": "P7", "method": "blur", "intensity": 75},
+      {"file": "P7_mask.png", "person": "P7", "method": "mask", "intensity": null},
+      {"file": "P7_pixel_50.png", "person": "P7", "method": "pixel", "intensity": 50},
+      {"file": "P7_pixel_75.png", "person": "P7", "method": "pixel", "intensity": 75},
+      
+      {"file": "P8_blur_50.png", "person": "P8", "method": "blur", "intensity": 50},
+      {"file": "P8_blur_75.png", "person": "P8", "method": "blur", "intensity": 75},
+      {"file": "P8_mask.png", "person": "P8", "method": "mask", "intensity": null},
+      {"file": "P8_pixel_50.png", "person": "P8", "method": "pixel", "intensity": 50},
+      {"file": "P8_pixel_75.png", "person": "P8", "method": "pixel", "intensity": 75}
+    ]
+  }
