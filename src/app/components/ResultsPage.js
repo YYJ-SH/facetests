@@ -54,12 +54,32 @@ export default function ResultsPage({ results }) {
       `테스트 ${i + 1} (${r.method}${r.intensity ? ` ${r.intensity}%` : ''}): 선택 ${r.selectedPerson} (정답: ${r.originalPerson}) - ${r.correct ? '정답' : '오답'}`
     ).join('\n');
 
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText(resultText).then(() => {
-      setCopied(true);
-      setTimeout(() => setCopied(false), 2000);
-    });
-  };
+    const copyToClipboard = () => {
+      if (navigator.clipboard && window.isSecureContext) {
+        // 보안 컨텍스트에서 실행 중이고 클립보드 API를 사용할 수 있는 경우
+        navigator.clipboard.writeText(resultText).then(() => {
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        }).catch(err => {
+          console.error('Failed to copy: ', err);
+        });
+      } else {
+        // 폴백: 텍스트 영역을 사용하여 복사
+        const textArea = document.createElement("textarea");
+        textArea.value = resultText;
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+        try {
+          document.execCommand('copy');
+          setCopied(true);
+          setTimeout(() => setCopied(false), 2000);
+        } catch (err) {
+          console.error('Failed to copy: ', err);
+        }
+        document.body.removeChild(textArea);
+      }
+    };
 
   return (
     <div className="container mx-auto px-4 py-8">
